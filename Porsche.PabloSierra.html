@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>PORSCHE | Spain</title>
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@600;700&amp;family=Inter:wght@400;500;600&amp;display=swap"
+        rel="stylesheet" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap"
+        rel="stylesheet" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap"
+        rel="stylesheet" />
+    <script src="./assets/js/tailwind-config.js"></script>
+    <link rel="stylesheet" href="./assets/css/styles.css" />
+</head>
+
+<body class="font-body selection:bg-secondary selection:text-surface-dim">
+    <!-- Top Navigation -->
+    <div id="header-container"></div>
+    <main>
+        <!-- Hero Section -->
+        <section id="hero" class="relative h-screen w-full flex items-end justify-start overflow-hidden">
+            <div class="absolute inset-0 z-0">
+                <img alt="Porsche Taycan in a dark studio setting"
+                    class="w-full h-full object-cover grayscale-[0.2] brightness-75"
+                    data-alt="Modern Porsche Taycan headlight detail in dark cinematic lighting"
+                    src="https://lh3.googleusercontent.com/aida-public/AB6AXuDxh99dg-kXlWS4aK1vTOjIAMofsC0ENC7Owp8ArDATuxnA_xXrYUMH3bGCaZOVGIssDXYaQd9oo6v1HnpJikLTFSkVSvdovmNe_fyVj_lNLkPUMMpSf2HrZdr6o_-70jJ0F7-S2u6b8B3zY_XqlukMJmrIR1SYuQ-YutJvYbX6miLsjDceGYOLlo6aYRUyYMVLCGOuxdDjE17HTtwkTndEaUcIVHs20VRZXjirhMAwxCpgBM5jllSCNCL3a2VVFAz-v8kebJY2DyY" />
+                <div
+                    class="absolute inset-0 bg-gradient-to-t from-surface-dim via-transparent to-transparent opacity-80">
+                </div>
+            </div>
+            <div class="relative z-10 px-12 pb-24 max-w-4xl">
+                <h1 class="font-headline text-6xl md:text-8xl font-bold mb-4 tracking-tighter text-glow">The new Taycan.
+                </h1>
+                <p class="text-xl md:text-2xl font-light text-on-surface-variant mb-10 max-w-xl">Overcoming yourself.
+                </p>
+                <div class="flex gap-4">
+                    <button
+                        class="bg-secondary text-surface-dim px-10 py-4 font-label text-sm font-semibold tracking-widest hover:brightness-110 transition-all duration-300 active:scale-95">
+                        DISCOVER MORE
+                    </button>
+                    <button
+                        class="border border-on-surface-variant/40 text-on-surface px-10 py-4 font-label text-sm font-semibold tracking-widest hover:bg-on-surface/5 transition-all duration-300">
+                        CONFIGURE
+                    </button>
+                </div>
+            </div>
+        </section>
+        <!-- Models Grid -->
+        <section id="models" class="bg-surface-dim py-32 px-12">
+            <div class="flex justify-between items-end mb-16">
+                <div>
+                    <span class="text-secondary font-label text-xs tracking-[0.3em] mb-4 block">LUXURY LINEUP</span>
+                    <h2 class="font-headline text-4xl font-semibold">Current Models</h2>
+                </div>
+                <a class="text-on-surface-variant hover:text-secondary transition-colors text-sm font-label tracking-widest"
+                    href="#">VIEW ALL MODELS</a>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- Card 1 -->
+                <div class="group cursor-pointer">
+                    <div class="aspect-[16/10] overflow-hidden bg-surface-container-high mb-6 relative">
+                        <img alt="Porsche 911 GT3"
+                            class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
+                            data-alt="Silver Porsche 911 parked in a minimalist concrete architecture"
+                            src="https://lh3.googleusercontent.com/aida-public/AB6AXuD2uRS66JZZPhTwqGck0aP2RTs5gH77TYZKcy274qCF6bwFIeSPXBKPZWPYRqm95ZdM01RgrzORUXO7V3FxYtmcKUhh9AZ9sF6XBGbfFhOh-PsT00GqnxUTU7sFiaUBK8BvJ-xY-Uw6wQQNXp9BshzWFAbaAvO_F_cOqP0mcRCYdozB3Olz-YnhCoD5cvqGgnLKwA5iOLHz1jF86opz-ZidiObehNiPYhm6C3wg-JQg1Xqtg0i7vmZykrMmiqOpC86diPYaE8XB4ls" />
+                        <div
+                            class="absolute top-4 left-4 bg-surface-dim/80 backdrop-blur-md px-3 py-1 text-[10px] font-label tracking-widest text-on-surface">
+                            911</div>
+                    </div>
+                    <div class="flex justify-between items-start">
+                        <div>
+                            <h3 class="font-headline text-xl mb-1 group-hover:text-secondary transition-colors">911 GT3
+                                RS</h3>
+                            <p class="text-on-surface-variant text-sm font-label">From 285.439 €</p>
+                        </div>
+                        <span
+                            class="text-[10px] font-label tracking-tighter border border-outline-variant px-2 py-0.5 text-on-surface-variant">GASOLINE</span>
+                    </div>
+                </div>
+                <!-- Card 2 -->
+                <div class="group cursor-pointer">
+                    <div class="aspect-[16/10] overflow-hidden bg-surface-container-high mb-6 relative">
+                        <img alt="Porsche Taycan Turbo"
+                            class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
+                            data-alt="Blue Porsche Taycan driving on a high mountain road"
+                            src="https://lh3.googleusercontent.com/aida-public/AB6AXuBxT9uq9v0hKuEYzBwYkCphRGeDpIWXmrU6CpqeD-3qguYin8gBySCHOKK0JvYB2wyYjR9mBlFU5rdrnqJFU3aDpGdhtfi-knl8buBFfdlqlvA-16txpOdr5AK_qZC71785V6LVKWQN7sgW7d6zn6t0ipdSB5c7GGlmjly8NrclTyOoLhgzy_iosd8u3LJBYYYZQXA2OFYV93xvl4CHaJYHmWGgWB45C3laeOEK9aJ-VlS-Oukq__ExKXp3zNjAKcn5v-GoXVzHogQ" />
+                        <div
+                            class="absolute top-4 left-4 bg-surface-dim/80 backdrop-blur-md px-3 py-1 text-[10px] font-label tracking-widest text-on-surface">
+                            TAYCAN</div>
+                    </div>
+                    <div class="flex justify-between items-start">
+                        <div>
+                            <h3 class="font-headline text-xl mb-1 group-hover:text-secondary transition-colors">Taycan
+                                Turbo S</h3>
+                            <p class="text-on-surface-variant text-sm font-label">From 217.560 €</p>
+                        </div>
+                        <span
+                            class="text-[10px] font-label tracking-tighter border border-secondary text-secondary px-2 py-0.5">ELECTRIC</span>
+                    </div>
+                </div>
+                <!-- Card 3 -->
+                <div class="group cursor-pointer">
+                    <div class="aspect-[16/10] overflow-hidden bg-surface-container-high mb-6 relative">
+                        <img alt="Porsche Cayenne E-Hybrid"
+                            class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
+                            data-alt="Black Porsche Cayenne parked in a modern urban garage"
+                            src="https://lh3.googleusercontent.com/aida-public/AB6AXuAO2jK4ylJGxYkZYZXFYRUhkBL3vdEjSn_ccKZZHi072QDxg6x7WvdmySIujrZoCA1WxXDz3w-eu5c5DQq1QRg1-PqrD1pe5TaGI1-Bx06ZKbIDB6vvBRud0fe2e94wml63jjQlWCaYatkoZO5QEhh98jRytKEyj0l1gimBa0cv-rry0Ia8jbUJR9IMXWPhDtPK6gFCRaNm1z5Oc7-WdDPLSkBlQd02rjN0NkQQW-VzrfbTbnAwoBwDKbXJc-mTovV7lPTl1bZxraQ" />
+                        <div
+                            class="absolute top-4 left-4 bg-surface-dim/80 backdrop-blur-md px-3 py-1 text-[10px] font-label tracking-widest text-on-surface">
+                            CAYENNE</div>
+                    </div>
+                    <div class="flex justify-between items-start">
+                        <div>
+                            <h3 class="font-headline text-xl mb-1 group-hover:text-secondary transition-colors">Cayenne
+                                Turbo E-Hybrid</h3>
+                            <p class="text-on-surface-variant text-sm font-label">From 182.410 €</p>
+                        </div>
+                        <span
+                            class="text-[10px] font-label tracking-tighter border border-on-surface-variant px-2 py-0.5 text-on-surface-variant">HYBRID</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Editorial Grid -->
+        <section id="editorial" class="bg-surface-container-low py-32 px-12">
+            <div class="grid grid-cols-1 md:grid-cols-12 gap-12 items-center">
+                <div class="md:col-span-4 space-y-8">
+                    <span class="text-secondary font-label text-xs tracking-[0.3em] block">CURATED EXPERIENCES</span>
+                    <h2 class="font-headline text-5xl font-bold leading-tight">Beyond<br />Performance</h2>
+                    <p class="text-on-surface-variant leading-relaxed text-lg">Every Porsche is more than a vehicle.
+                        It's a statement of engineering excellence, an invitation to push the boundaries of what's
+                        possible on the asphalt and beyond.</p>
+                    <button
+                        class="border-b-2 border-secondary pb-1 text-on-surface font-label text-sm tracking-widest hover:text-secondary transition-colors">
+                        READ THE STORY
+                    </button>
+                </div>
+                <div class="md:col-span-8 grid grid-cols-2 gap-8">
+                    <div class="relative aspect-[4/5] overflow-hidden bg-surface-container-high">
+                        <img alt="Porsche steering wheel detail" class="w-full h-full object-cover opacity-80"
+                            data-alt="Detail of a leather Porsche steering wheel and premium dashboard"
+                            src="https://lh3.googleusercontent.com/aida-public/AB6AXuAX-iW416L4C_dooplC1_J0N1y1wmjBDoHVzSsvYRkY5tYHr-m7yowTEvcL9iSlK7XfFmq2S6pnR_yBuRZMJFtQgOaelAoSNPDXd2SwxnZoHFSIDAUzLIHFl_6r0PKGN8Ytk6WbhYWVmqaOCnqFzheFXohEtogzWmB4w1aCMsllrzjr8chLr1b-MYMsNzDyUlEvy561J6D66V8Z90xqWF4-LjdnuB7FbUGht-uxWmku62TJ797wWWjogq_FaEl8DHEq0LeSJJwtSlI" />
+                        <div class="absolute inset-0 bg-gradient-to-t from-surface-dim/60 to-transparent"></div>
+                    </div>
+                    <div class="relative aspect-[4/5] overflow-hidden bg-surface-container-high translate-y-16">
+                        <img alt="Classic Porsche restoration" class="w-full h-full object-cover opacity-80"
+                            data-alt="Close up of a vintage Porsche emblem on a classic hood"
+                            src="https://lh3.googleusercontent.com/aida-public/AB6AXuCE_iVWnXhFGR3H43fTuebo6XW2oBht22mHTvnQGK8G37dp0Ydrs9EhwjODu-JwOQYUY5ky_xLL_buFhtF52X7rbkZjTq4O7lOpZPzN_oXjm3I4YV95iplNDlPMBsw8qvjrd9Kqzq7MwZY21B2uevmEZ9OKTCeKrkBV0QZ10Q5sKCALKspVLRodawPkEty4Va2CL4GTYYwaU7sL6Di3EiycYztcv-WPA51HjUKCHfeWkHE2PXZ9Sil2SayONwp153ega6tYkn95YZs" />
+                        <div class="absolute inset-0 bg-gradient-to-t from-surface-dim/60 to-transparent"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Contact Section -->
+        <section id="contact" class="bg-surface-dim py-32 px-12 flex flex-col items-center">
+            <div class="max-w-2xl w-full text-center mb-16">
+                <h2 class="font-headline text-4xl font-semibold mb-6">Connect with us</h2>
+                <p class="text-on-surface-variant">Experience Porsche first-hand. Inquire about models, test drives, or
+                    exclusive events.</p>
+            </div>
+            <form class="max-w-xl w-full grid grid-cols-1 gap-12">
+                <div class="relative">
+                    <label class="block font-label text-[10px] tracking-widest text-on-surface-variant mb-2">FULL
+                        NAME</label>
+                    <input
+                        class="w-full bg-transparent border-0 border-b border-outline-variant focus:border-secondary focus:ring-0 text-on-surface transition-all py-3 placeholder:text-surface-container-highest"
+                        placeholder="Ex: Ferdinand Porsche" type="text" />
+                </div>
+                <div class="relative">
+                    <label class="block font-label text-[10px] tracking-widest text-on-surface-variant mb-2">EMAIL
+                        ADDRESS</label>
+                    <input
+                        class="w-full bg-transparent border-0 border-b border-outline-variant focus:border-secondary focus:ring-0 text-on-surface transition-all py-3 placeholder:text-surface-container-highest"
+                        placeholder="Ex: f.porsche@example.com" type="email" />
+                </div>
+                <div class="relative">
+                    <label
+                        class="block font-label text-[10px] tracking-widest text-on-surface-variant mb-2">MESSAGE</label>
+                    <textarea
+                        class="w-full bg-transparent border-0 border-b border-outline-variant focus:border-secondary focus:ring-0 text-on-surface transition-all py-3 placeholder:text-surface-container-highest resize-none"
+                        placeholder="How can we assist you?" rows="4"></textarea>
+                </div>
+                <button
+                    class="bg-secondary text-surface-dim py-5 font-label text-sm font-bold tracking-[0.2em] hover:brightness-110 active:scale-[0.98] transition-all"
+                    type="submit">
+                    SEND INQUIRY
+                </button>
+            </form>
+        </section>
+    </main>
+    <!-- Footer -->
+    <footer id="footer" class="bg-surface-dim border-t border-outline-variant/10">
+        <div class="grid grid-cols-1 md:grid-cols-4 gap-12 px-12 py-24 max-w-7xl mx-auto">
+            <div class="space-y-6">
+                <span class="text-lg font-bold tracking-tighter text-on-surface font-headline uppercase">PORSCHE</span>
+                <p class="text-on-surface-variant text-sm leading-relaxed">Defining the future of luxury mobility
+                    through precision engineering and timeless design since 1948.</p>
+            </div>
+            <div class="space-y-6">
+                <h4 class="font-label text-xs tracking-widest text-on-surface font-semibold">MODELS</h4>
+                <ul class="space-y-3 text-on-surface-variant text-sm">
+                    <li><a class="hover:text-secondary transition-colors" href="#">718</a></li>
+                    <li><a class="hover:text-secondary transition-colors" href="#">911</a></li>
+                    <li><a class="hover:text-secondary transition-colors" href="#">Taycan</a></li>
+                    <li><a class="hover:text-secondary transition-colors" href="#">Panamera</a></li>
+                    <li><a class="hover:text-secondary transition-colors" href="#">Macan</a></li>
+                    <li><a class="hover:text-secondary transition-colors" href="#">Cayenne</a></li>
+                </ul>
+            </div>
+            <div class="space-y-6">
+                <h4 class="font-label text-xs tracking-widest text-on-surface font-semibold">SERVICES</h4>
+                <ul class="space-y-3 text-on-surface-variant text-sm">
+                    <li><a class="hover:text-secondary transition-colors" href="#">Financial Services</a></li>
+                    <li><a class="hover:text-secondary transition-colors" href="#">Porsche Exclusive Manufaktur</a></li>
+                    <li><a class="hover:text-secondary transition-colors" href="#">Porsche Factory Collection</a></li>
+                    <li><a class="hover:text-secondary transition-colors" href="#">Online Shop</a></li>
+                </ul>
+            </div>
+            <div class="space-y-6">
+                <h4 class="font-label text-xs tracking-widest text-on-surface font-semibold">CONNECT</h4>
+                <div class="flex gap-4">
+                    <a class="w-10 h-10 border border-outline-variant flex items-center justify-center hover:border-secondary transition-colors"
+                        href="#">
+                        <span class="material-symbols-outlined text-lg">share</span>
+                    </a>
+                    <a class="w-10 h-10 border border-outline-variant flex items-center justify-center hover:border-secondary transition-colors"
+                        href="#">
+                        <span class="material-symbols-outlined text-lg">mail</span>
+                    </a>
+                    <a class="w-10 h-10 border border-outline-variant flex items-center justify-center hover:border-secondary transition-colors"
+                        href="#">
+                        <span class="material-symbols-outlined text-lg">location_on</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div
+            class="px-12 py-10 border-t border-outline-variant/10 flex flex-col md:flex-row justify-between items-center gap-6">
+            <p class="text-[10px] font-label tracking-widest text-on-surface-variant uppercase">© 2024 Porsche Spain.
+                High-End Automotive Editorial.</p>
+            <div class="flex gap-8 text-[10px] font-label tracking-widest text-on-surface-variant uppercase">
+                <a class="hover:text-on-surface transition-colors" href="#">Legal Notice</a>
+                <a class="hover:text-on-surface transition-colors" href="#">Privacy Policy</a>
+                <a class="hover:text-on-surface transition-colors" href="#">Cookies</a>
+            </div>
+        </div>
+    </footer>
+    <script src="./assets/js/main.js" type="module"></script>
+</body>
+
+</html>
